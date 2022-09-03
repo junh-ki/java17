@@ -2,6 +2,7 @@ package com.example.java17;
 
 import com.example.java17.features.RaggedArrays;
 import com.example.java17.features.records.RecordsTutorial;
+import com.example.java17.features.strings.StringsTutorial;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -16,6 +17,7 @@ public class Java17Application {
         RaggedArrays.main(EMPTY_STRING_ARRAY);
         printClassTestLogOnConsole(RecordsTutorial.class.getName());
         RecordsTutorial.main(EMPTY_STRING_ARRAY);
+        StringsTutorial.main(EMPTY_STRING_ARRAY);
     }
 
     private static void printClassTestLogOnConsole(String className) {

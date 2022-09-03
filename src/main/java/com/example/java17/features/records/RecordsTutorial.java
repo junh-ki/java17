@@ -31,6 +31,7 @@ public class RecordsTutorial {
          *
          */
         EmployeeRecord employeeRecord = new EmployeeRecord(23456, "Will");
+
         System.out.println(employeeRecord.name());
         System.out.println(employeeRecord.employeeNumber());
         System.out.println(employeeRecord);
