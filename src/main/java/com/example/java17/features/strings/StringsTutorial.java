@@ -68,6 +68,14 @@ public class StringsTutorial {
                 </div>
                 """;
         System.out.println(html);
+
+        String name = "Edgar";
+        int age = 50;
+        String message = "Hello, %s. Next year, you'll be %d.".formatted(name, age + 1);
+        System.out.println(message);
+
+        String dir = System.getProperty("user.dir");
+        System.out.println(dir);
     }
 
 }
